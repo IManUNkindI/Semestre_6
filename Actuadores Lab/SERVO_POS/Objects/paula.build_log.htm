@@ -1,0 +1,431 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Andres Bernal, UMNG, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\HOGAR PC\Documents\Universidad\Actuadores Lab\SERVO_POS\paula.uvprojx
+Project File Date:  09/14/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f767xx.s...
+compiling system_stm32f7xx.c...
+paula.cpp(9): warning: no previous extern declaration for non-static variable 'BAUDRATE' [-Wmissing-variable-declarations]
+unsigned long int BAUDRATE,Over8;
+                  ^
+paula.cpp(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+unsigned long int BAUDRATE,Over8;
+^
+paula.cpp(9): warning: no previous extern declaration for non-static variable 'Over8' [-Wmissing-variable-declarations]
+unsigned long int BAUDRATE,Over8;
+                           ^
+paula.cpp(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+unsigned long int BAUDRATE,Over8;
+^
+paula.cpp(10): warning: no previous extern declaration for non-static variable 'dato' [-Wmissing-variable-declarations]
+char dato[10],tx[30];
+     ^
+paula.cpp(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char dato[10],tx[30];
+^
+paula.cpp(10): warning: no previous extern declaration for non-static variable 'tx' [-Wmissing-variable-declarations]
+char dato[10],tx[30];
+              ^
+paula.cpp(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char dato[10],tx[30];
+^
+paula.cpp(11): warning: no previous extern declaration for non-static variable 'Cad' [-Wmissing-variable-declarations]
+char Cad[6];
+     ^
+paula.cpp(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char Cad[6];
+^
+paula.cpp(12): warning: no previous extern declaration for non-static variable 'i' [-Wmissing-variable-declarations]
+int i=0,c=0,txi=0;
+    ^
+paula.cpp(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int i=0,c=0,txi=0;
+^
+paula.cpp(12): warning: no previous extern declaration for non-static variable 'c' [-Wmissing-variable-declarations]
+int i=0,c=0,txi=0;
+        ^
+paula.cpp(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int i=0,c=0,txi=0;
+^
+paula.cpp(12): warning: no previous extern declaration for non-static variable 'txi' [-Wmissing-variable-declarations]
+int i=0,c=0,txi=0;
+            ^
+paula.cpp(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int i=0,c=0,txi=0;
+^
+paula.cpp(13): warning: no previous extern declaration for non-static variable 'ctd' [-Wmissing-variable-declarations]
+float ctd=0,RPM=0;
+      ^
+paula.cpp(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float ctd=0,RPM=0;
+^
+paula.cpp(13): warning: no previous extern declaration for non-static variable 'RPM' [-Wmissing-variable-declarations]
+float ctd=0,RPM=0;
+            ^
+paula.cpp(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float ctd=0,RPM=0;
+^
+paula.cpp(14): warning: no previous extern declaration for non-static variable 'Menos' [-Wmissing-variable-declarations]
+bool Menos=false, Mas=true;
+     ^
+paula.cpp(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+bool Menos=false, Mas=true;
+^
+paula.cpp(14): warning: no previous extern declaration for non-static variable 'Mas' [-Wmissing-variable-declarations]
+bool Menos=false, Mas=true;
+                  ^
+paula.cpp(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+bool Menos=false, Mas=true;
+^
+paula.cpp(15): warning: no previous extern declaration for non-static variable 'buzzer_DAC' [-Wmissing-variable-declarations]
+volatile int buzzer_DAC=0;
+             ^
+paula.cpp(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int buzzer_DAC=0;
+         ^
+paula.cpp(16): warning: no previous extern declaration for non-static variable 'x' [-Wmissing-variable-declarations]
+volatile float x=0;
+               ^
+paula.cpp(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile float x=0;
+         ^
+paula.cpp(17): warning: no previous extern declaration for non-static variable 'Vol' [-Wmissing-variable-declarations]
+volatile float Vol=0;
+               ^
+paula.cpp(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile float Vol=0;
+         ^
+paula.cpp(22): warning: no previous extern declaration for non-static variable 'posn' [-Wmissing-variable-declarations]
+volatile int posn=0;
+             ^
+paula.cpp(22): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int posn=0;
+         ^
+paula.cpp(23): warning: no previous extern declaration for non-static variable 'posan' [-Wmissing-variable-declarations]
+volatile int posan=0;
+             ^
+paula.cpp(23): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int posan=0;
+         ^
+paula.cpp(24): warning: no previous extern declaration for non-static variable 'pos' [-Wmissing-variable-declarations]
+volatile int pos[8]={10,20,30,40,50,60,70,80};
+             ^
+paula.cpp(24): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int pos[8]={10,20,30,40,50,60,70,80};
+         ^
+paula.cpp(25): warning: no previous extern declaration for non-static variable 'guardar' [-Wmissing-variable-declarations]
+volatile int guardar=0;
+             ^
+paula.cpp(25): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int guardar=0;
+         ^
+paula.cpp(26): warning: no previous extern declaration for non-static variable 'melo' [-Wmissing-variable-declarations]
+bool melo=false;
+     ^
+paula.cpp(26): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+bool melo=false;
+^
+paula.cpp(50): warning: use of old-style cast [-Wold-style-cast]
+                while (UART5->ISR & USART_ISR_RXNE){
+                       ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(51): warning: use of old-style cast [-Wold-style-cast]
+                        char p=(UART5->RDR & 0xFF);//lee un caracter
+                                ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(56): warning: use of old-style cast [-Wold-style-cast]
+                                GPIOD->ODR |=( 1<<3)|( 1<<4)|( 1<<5)|( 1<<6);// check
+                                ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(48): warning: no previous prototype for function 'UART5_IRQHandler' [-Wmissing-prototypes]
+        void UART5_IRQHandler(void){//lectura
+             ^
+paula.cpp(48): note: declare 'static' if the function is not intended to be used outside of this translation unit
+        void UART5_IRQHandler(void){//lectura
+        ^
+        static 
+paula.cpp(198): warning: use of old-style cast [-Wold-style-cast]
+        RCC->AHB1ENR |= RCC_AHB1ENR_GPIODEN; //Encender GPIO D
+        ^~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1546): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+paula.cpp(199): warning: use of old-style cast [-Wold-style-cast]
+        RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN; //Encender GPIO B
+        ^~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1546): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+paula.cpp(200): warning: use of old-style cast [-Wold-style-cast]
+        RCC->APB1ENR |= RCC_APB1ENR_UART5EN;//Encender UART5
+        ^~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1546): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+paula.cpp(205): warning: use of old-style cast [-Wold-style-cast]
+        GPIOB->MODER|=(1<<6)| (1<<8)|(1<<10)|(1<<12); // COMO SALIDA  D3 , D4, D5, D6
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1535): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(208): warning: use of old-style cast [-Wold-style-cast]
+        GPIOB->MODER |= 0xA0000; 
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1535): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(209): warning: use of old-style cast [-Wold-style-cast]
+        GPIOB->AFR[1] |=0x77;   
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1535): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(216): warning: use of old-style cast [-Wold-style-cast]
+        UART5->BRR |= BAUDRATE;
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(217): warning: use of old-style cast [-Wold-style-cast]
+        UART5->CR1 |=(USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE| Over8<<15);
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(220): warning: use of old-style cast [-Wold-style-cast]
+        UART5->CR1|= USART_CR1_UE;
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(227): warning: use of old-style cast [-Wold-style-cast]
+  while(!(UART5->ISR & USART_ISR_TXE));
+          ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(228): warning: use of old-style cast [-Wold-style-cast]
+        UART5->TDR = value;
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1493): note: expanded from macro 'UART5'
+#define UART5               ((USART_TypeDef *) UART5_BASE)
+                             ^                 ~~~~~~~~~~
+paula.cpp(228): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+        UART5->TDR = value;
+                   ~ ^~~~~
+paula.cpp(233): warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned int') [-Wsign-compare]
+         for(;txi<strlen(tx);){
+              ~~~^~~~~~~~~~~
+paula.cpp(249): warning: declaration shadows a variable in the global namespace [-Wshadow]
+        for(uint32_t i=0; i<delay; i++){
+                     ^
+paula.cpp(12): note: previous declaration is here
+int i=0,c=0,txi=0;
+    ^
+paula.cpp(255): warning: use of old-style cast [-Wold-style-cast]
+        GPIOD->ODR |=( 1<<3)|( 1<<4)|( 1<<5)|( 1<<6);// check
+        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(260): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR|=(1<<4)|(1<<5)|(1<<6); // check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(262): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<3);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(270): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR|=(1<<4)|(1<<5); // check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(271): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<6);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(273): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR&=(0<<3);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(281): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR|=(1<<4)|(1<<6);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(282): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<5);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(284): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<3);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(291): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR|=(1<<4);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(292): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<5)|(0<<6); //check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(294): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<3);//check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(300): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR|=(1<<5)|(1<<6); // check 
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(302): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<4);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(304): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<3);// check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(310): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR |=(1<<5); //check 
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(311): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<4)|(0<<6); //check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(313): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<3); // check
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(317): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR |=(1<<6);
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(318): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<4)|(0<<5);
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(320): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<3);
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(324): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR &=(0<<4)|(0<<5)|(0<<6);
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+paula.cpp(326): warning: use of old-style cast [-Wold-style-cast]
+                                        GPIOD->ODR&=(0<<3);
+                                        ^~~~~
+C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h(1537): note: expanded from macro 'GPIOD'
+#define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+                             ^                ~~~~~~~~~~
+61 warnings generated.
+compiling paula.cpp...
+linking...
+Program Size: Code=11184 RO-data=1036 RW-data=36 ZI-data=1680  
+".\Objects\paula.axf" - 0 Error(s), 61 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F7xx_DFP.2.15.2.pack
+                Keil.STM32F7xx_DFP.2.15.2
+                STMicroelectronics STM32F7 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.2.5
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/HOGAR PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/HOGAR PC/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.15.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.2.5
+      Source file:   Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/arm/startup_stm32f767xx.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h
+      Source file:   MDK/Device/Source/ARM/STM32F76x_77x_OTP.s
+      Source file:   MDK/Device/Source/ARM/STM32F76x_77x_OPT.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

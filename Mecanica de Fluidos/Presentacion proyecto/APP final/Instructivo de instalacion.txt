@@ -1,0 +1,6 @@
+Saludos profesor William,
+Por cuestiones de tamaños del archivo no puedo subir una sola carpeta para que la aplicación funcione,
+sin embargo, dejé dos carpetas con los archivos necesarios para su ejecución, lo único que debe hacer
+para que funcione correctamente la aplicación es que todos los ficheros de las carpetas se encuentren
+en el mismo lugar, espero no generar mayores inconvenientes y quedó atento  cualquier inquietud.
+Gracias...  

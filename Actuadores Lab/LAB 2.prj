@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ProjectSettingFile>
+  <ProjectInfos>
+    <ProjectName value="LAB 2" />
+    <ProjectCreator value="" />
+    <ProjectComment value="" />
+    <ProjectType value="User" />
+    <ByPCToolVersion value="1.08.00" />
+  </ProjectInfos>
+  <Project>
+    <BaseSettings>
+      <Drive MLFB="6SL32105FB104UA1" SerialNum="" FWVersion="11103" />
+      <Motor MLFB="" SerialNum="" ID="54" />
+      <Encoder MLFB="" SerialNum="" FWVersion="" />
+      <Compatible V-AssistantVersion="" ACXVersion="11103" />
+    </BaseSettings>
+    <Parameters>
+      <parameter ParamID="251" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="748" ParamIndex="-1" DriveObject="1" value="0" />
+      <parameter ParamID="29000" ParamIndex="-1" DriveObject="2" value="54" />
+      <parameter ParamID="29001" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29002" ParamIndex="-1" DriveObject="1" value="0" />
+      <parameter ParamID="29003" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29004" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29005" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="29006" ParamIndex="-1" DriveObject="2" value="400" />
+      <parameter ParamID="29007" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29008" ParamIndex="-1" DriveObject="2" value="2" />
+      <parameter ParamID="29009" ParamIndex="-1" DriveObject="2" value="8" />
+      <parameter ParamID="29010" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29011" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29012" ParamIndex="0" DriveObject="2" value="1" />
+      <parameter ParamID="29012" ParamIndex="1" DriveObject="2" value="1" />
+      <parameter ParamID="29012" ParamIndex="2" DriveObject="2" value="1" />
+      <parameter ParamID="29012" ParamIndex="3" DriveObject="2" value="1" />
+      <parameter ParamID="29013" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29014" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29016" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29019" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29020" ParamIndex="0" DriveObject="2" value="26" />
+      <parameter ParamID="29020" ParamIndex="1" DriveObject="2" value="26" />
+      <parameter ParamID="29021" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29022" ParamIndex="-1" DriveObject="2" value="1.0000" />
+      <parameter ParamID="29023" ParamIndex="-1" DriveObject="2" value="7" />
+      <parameter ParamID="29024" ParamIndex="-1" DriveObject="2" value="76" />
+      <parameter ParamID="29025" ParamIndex="-1" DriveObject="2" value="4" />
+      <parameter ParamID="29026" ParamIndex="-1" DriveObject="2" value="2000" />
+      <parameter ParamID="29027" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29028" ParamIndex="-1" DriveObject="2" value="7.5000" />
+      <parameter ParamID="29030" ParamIndex="-1" DriveObject="2" value="1000" />
+      <parameter ParamID="29031" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29032" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29033" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29035" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29041" ParamIndex="0" DriveObject="2" value="100.0000" />
+      <parameter ParamID="29041" ParamIndex="1" DriveObject="2" value="300.0000" />
+      <parameter ParamID="29042" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29043" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29045" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29050" ParamIndex="0" DriveObject="2" value="300.0000" />
+      <parameter ParamID="29050" ParamIndex="1" DriveObject="2" value="300.0000" />
+      <parameter ParamID="29050" ParamIndex="2" DriveObject="2" value="300.0000" />
+      <parameter ParamID="29051" ParamIndex="0" DriveObject="2" value="-300.0000" />
+      <parameter ParamID="29051" ParamIndex="1" DriveObject="2" value="-300.0000" />
+      <parameter ParamID="29051" ParamIndex="2" DriveObject="2" value="-300.0000" />
+      <parameter ParamID="29060" ParamIndex="-1" DriveObject="2" value="3000.0000" />
+      <parameter ParamID="29061" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29070" ParamIndex="0" DriveObject="2" value="210000.0000" />
+      <parameter ParamID="29070" ParamIndex="1" DriveObject="2" value="210000.0000" />
+      <parameter ParamID="29070" ParamIndex="2" DriveObject="2" value="210000.0000" />
+      <parameter ParamID="29071" ParamIndex="0" DriveObject="2" value="-210000.0000" />
+      <parameter ParamID="29071" ParamIndex="1" DriveObject="2" value="-210000.0000" />
+      <parameter ParamID="29071" ParamIndex="2" DriveObject="2" value="-210000.0000" />
+      <parameter ParamID="29075" ParamIndex="-1" DriveObject="2" value="200.0000" />
+      <parameter ParamID="29078" ParamIndex="-1" DriveObject="2" value="10.0000" />
+      <parameter ParamID="29080" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="29090" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29091" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29110" ParamIndex="0" DriveObject="2" value="1.8000" />
+      <parameter ParamID="29110" ParamIndex="1" DriveObject="2" value="1.0000" />
+      <parameter ParamID="29111" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="29120" ParamIndex="0" DriveObject="2" value="0.3000" />
+      <parameter ParamID="29120" ParamIndex="1" DriveObject="2" value="0.3000" />
+      <parameter ParamID="29121" ParamIndex="0" DriveObject="2" value="15.0000" />
+      <parameter ParamID="29121" ParamIndex="1" DriveObject="2" value="20.0000" />
+      <parameter ParamID="29130" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29131" ParamIndex="-1" DriveObject="2" value="100" />
+      <parameter ParamID="29132" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="29133" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="29139" ParamIndex="-1" DriveObject="2" value="20.0000" />
+      <parameter ParamID="29140" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29141" ParamIndex="-1" DriveObject="2" value="200.0000" />
+      <parameter ParamID="29142" ParamIndex="-1" DriveObject="2" value="2000.0000" />
+      <parameter ParamID="29143" ParamIndex="-1" DriveObject="2" value="20.0000" />
+      <parameter ParamID="29144" ParamIndex="-1" DriveObject="2" value="30000" />
+      <parameter ParamID="29230" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29240" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29241" ParamIndex="0" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="1" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="2" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="3" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="4" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="5" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="6" DriveObject="2" value="0" />
+      <parameter ParamID="29241" ParamIndex="7" DriveObject="2" value="0" />
+      <parameter ParamID="29242" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29243" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29244" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29245" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29246" ParamIndex="-1" DriveObject="2" value="360000" />
+      <parameter ParamID="29247" ParamIndex="-1" DriveObject="2" value="10000" />
+      <parameter ParamID="29248" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29249" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29250" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="0" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="1" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="2" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="3" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="4" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="5" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="6" DriveObject="2" value="0" />
+      <parameter ParamID="29251" ParamIndex="7" DriveObject="2" value="0" />
+      <parameter ParamID="1001" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1002" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1003" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1004" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1005" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1006" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1007" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1058" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="1082" ParamIndex="-1" DriveObject="2" value="1500.0000" />
+      <parameter ParamID="1083" ParamIndex="-1" DriveObject="2" value="210000.0000" />
+      <parameter ParamID="1086" ParamIndex="-1" DriveObject="2" value="-210000.0000" />
+      <parameter ParamID="1115" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="1120" ParamIndex="-1" DriveObject="2" value="1.0000" />
+      <parameter ParamID="1121" ParamIndex="-1" DriveObject="2" value="1.0000" />
+      <parameter ParamID="1130" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1131" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1215" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="1216" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="1217" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="1226" ParamIndex="-1" DriveObject="2" value="20.0000" />
+      <parameter ParamID="1227" ParamIndex="-1" DriveObject="2" value="4.0000" />
+      <parameter ParamID="1228" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1414" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="1415" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="1416" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1417" ParamIndex="-1" DriveObject="2" value="1999.0000" />
+      <parameter ParamID="1418" ParamIndex="-1" DriveObject="2" value="0.7000" />
+      <parameter ParamID="1419" ParamIndex="-1" DriveObject="2" value="1999.0000" />
+      <parameter ParamID="1420" ParamIndex="-1" DriveObject="2" value="0.7000" />
+      <parameter ParamID="1421" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="1422" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1423" ParamIndex="-1" DriveObject="2" value="1999.0000" />
+      <parameter ParamID="1424" ParamIndex="-1" DriveObject="2" value="0.7000" />
+      <parameter ParamID="1425" ParamIndex="-1" DriveObject="2" value="1999.0000" />
+      <parameter ParamID="1426" ParamIndex="-1" DriveObject="2" value="0.7000" />
+      <parameter ParamID="1433" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1441" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1520" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1521" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="1656" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="1658" ParamIndex="-1" DriveObject="2" value="1999.0000" />
+      <parameter ParamID="1659" ParamIndex="-1" DriveObject="2" value="0.7000" />
+      <parameter ParamID="1663" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="1664" ParamIndex="-1" DriveObject="2" value="0.3000" />
+      <parameter ParamID="1665" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="1666" ParamIndex="-1" DriveObject="2" value="0.0100" />
+      <parameter ParamID="1668" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="1669" ParamIndex="-1" DriveObject="2" value="0.3000" />
+      <parameter ParamID="1670" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="1671" ParamIndex="-1" DriveObject="2" value="0.0100" />
+      <parameter ParamID="1673" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="1674" ParamIndex="-1" DriveObject="2" value="0.3000" />
+      <parameter ParamID="1675" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="1676" ParamIndex="-1" DriveObject="2" value="0.0100" />
+      <parameter ParamID="2118" ParamIndex="0" DriveObject="2" value="6310" />
+      <parameter ParamID="2118" ParamIndex="1" DriveObject="2" value="7594" />
+      <parameter ParamID="2118" ParamIndex="2" DriveObject="2" value="7566" />
+      <parameter ParamID="2118" ParamIndex="3" DriveObject="2" value="32905" />
+      <parameter ParamID="2118" ParamIndex="4" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="5" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="6" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="7" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="8" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="9" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="10" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="11" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="12" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="13" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="14" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="15" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="16" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="17" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="18" DriveObject="2" value="0" />
+      <parameter ParamID="2118" ParamIndex="19" DriveObject="2" value="0" />
+      <parameter ParamID="2119" ParamIndex="0" DriveObject="2" value="2" />
+      <parameter ParamID="2119" ParamIndex="1" DriveObject="2" value="3" />
+      <parameter ParamID="2119" ParamIndex="2" DriveObject="2" value="3" />
+      <parameter ParamID="2119" ParamIndex="3" DriveObject="2" value="3" />
+      <parameter ParamID="2119" ParamIndex="4" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="5" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="6" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="7" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="8" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="9" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="10" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="11" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="12" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="13" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="14" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="15" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="16" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="17" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="18" DriveObject="2" value="1" />
+      <parameter ParamID="2119" ParamIndex="19" DriveObject="2" value="1" />
+      <parameter ParamID="2153" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="2161" ParamIndex="-1" DriveObject="2" value="10.0000" />
+      <parameter ParamID="2162" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="2175" ParamIndex="-1" DriveObject="2" value="210000.0000" />
+      <parameter ParamID="2177" ParamIndex="-1" DriveObject="2" value="0.5000" />
+      <parameter ParamID="2525" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2533" ParamIndex="-1" DriveObject="2" value="0.0000" />
+      <parameter ParamID="2542" ParamIndex="-1" DriveObject="2" value="1000" />
+      <parameter ParamID="2543" ParamIndex="-1" DriveObject="2" value="200.0000" />
+      <parameter ParamID="2544" ParamIndex="-1" DriveObject="2" value="40" />
+      <parameter ParamID="2545" ParamIndex="-1" DriveObject="2" value="1000.0000" />
+      <parameter ParamID="2546" ParamIndex="-1" DriveObject="2" value="3000" />
+      <parameter ParamID="2571" ParamIndex="-1" DriveObject="2" value="30000" />
+      <parameter ParamID="2572" ParamIndex="-1" DriveObject="2" value="100" />
+      <parameter ParamID="2573" ParamIndex="-1" DriveObject="2" value="100" />
+      <parameter ParamID="2574" ParamIndex="-1" DriveObject="2" value="2000000" />
+      <parameter ParamID="2575" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2580" ParamIndex="-1" DriveObject="2" value="-2147482648" />
+      <parameter ParamID="2581" ParamIndex="-1" DriveObject="2" value="2147482647" />
+      <parameter ParamID="2582" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2583" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2599" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2600" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2604" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="2605" ParamIndex="-1" DriveObject="2" value="5000" />
+      <parameter ParamID="2606" ParamIndex="-1" DriveObject="2" value="2147482647" />
+      <parameter ParamID="2608" ParamIndex="-1" DriveObject="2" value="300" />
+      <parameter ParamID="2609" ParamIndex="-1" DriveObject="2" value="20000" />
+      <parameter ParamID="2611" ParamIndex="-1" DriveObject="2" value="300" />
+      <parameter ParamID="2617" ParamIndex="0" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="1" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="2" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="3" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="4" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="5" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="6" DriveObject="2" value="0" />
+      <parameter ParamID="2617" ParamIndex="7" DriveObject="2" value="0" />
+      <parameter ParamID="2618" ParamIndex="0" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="1" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="2" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="3" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="4" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="5" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="6" DriveObject="2" value="600" />
+      <parameter ParamID="2618" ParamIndex="7" DriveObject="2" value="600" />
+      <parameter ParamID="2621" ParamIndex="0" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="1" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="2" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="3" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="4" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="5" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="6" DriveObject="2" value="1" />
+      <parameter ParamID="2621" ParamIndex="7" DriveObject="2" value="1" />
+      <parameter ParamID="2622" ParamIndex="0" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="1" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="2" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="3" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="4" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="5" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="6" DriveObject="2" value="0" />
+      <parameter ParamID="2622" ParamIndex="7" DriveObject="2" value="0" />
+      <parameter ParamID="2634" ParamIndex="-1" DriveObject="2" value="1000" />
+      <parameter ParamID="2635" ParamIndex="-1" DriveObject="2" value="100" />
+      <parameter ParamID="2691" ParamIndex="-1" DriveObject="2" value="600" />
+      <parameter ParamID="2692" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="2693" ParamIndex="-1" DriveObject="2" value="100.0000" />
+      <parameter ParamID="29300" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29301" ParamIndex="0" DriveObject="2" value="1" />
+      <parameter ParamID="29301" ParamIndex="1" DriveObject="2" value="1" />
+      <parameter ParamID="29301" ParamIndex="2" DriveObject="2" value="1" />
+      <parameter ParamID="29301" ParamIndex="3" DriveObject="2" value="1" />
+      <parameter ParamID="29301" ParamIndex="9" DriveObject="2" value="1" />
+      <parameter ParamID="29302" ParamIndex="0" DriveObject="2" value="2" />
+      <parameter ParamID="29302" ParamIndex="1" DriveObject="2" value="2" />
+      <parameter ParamID="29302" ParamIndex="2" DriveObject="2" value="2" />
+      <parameter ParamID="29302" ParamIndex="3" DriveObject="2" value="2" />
+      <parameter ParamID="29302" ParamIndex="9" DriveObject="2" value="2" />
+      <parameter ParamID="29303" ParamIndex="0" DriveObject="2" value="3" />
+      <parameter ParamID="29303" ParamIndex="1" DriveObject="2" value="3" />
+      <parameter ParamID="29303" ParamIndex="2" DriveObject="2" value="3" />
+      <parameter ParamID="29303" ParamIndex="3" DriveObject="2" value="3" />
+      <parameter ParamID="29303" ParamIndex="9" DriveObject="2" value="8" />
+      <parameter ParamID="29304" ParamIndex="0" DriveObject="2" value="4" />
+      <parameter ParamID="29304" ParamIndex="1" DriveObject="2" value="4" />
+      <parameter ParamID="29304" ParamIndex="2" DriveObject="2" value="4" />
+      <parameter ParamID="29304" ParamIndex="3" DriveObject="2" value="4" />
+      <parameter ParamID="29304" ParamIndex="9" DriveObject="2" value="9" />
+      <parameter ParamID="29305" ParamIndex="0" DriveObject="2" value="5" />
+      <parameter ParamID="29305" ParamIndex="1" DriveObject="2" value="5" />
+      <parameter ParamID="29305" ParamIndex="2" DriveObject="2" value="12" />
+      <parameter ParamID="29305" ParamIndex="3" DriveObject="2" value="12" />
+      <parameter ParamID="29305" ParamIndex="9" DriveObject="2" value="5" />
+      <parameter ParamID="29306" ParamIndex="0" DriveObject="2" value="6" />
+      <parameter ParamID="29306" ParamIndex="1" DriveObject="2" value="6" />
+      <parameter ParamID="29306" ParamIndex="2" DriveObject="2" value="13" />
+      <parameter ParamID="29306" ParamIndex="3" DriveObject="2" value="13" />
+      <parameter ParamID="29306" ParamIndex="9" DriveObject="2" value="19" />
+      <parameter ParamID="29307" ParamIndex="0" DriveObject="2" value="7" />
+      <parameter ParamID="29307" ParamIndex="1" DriveObject="2" value="21" />
+      <parameter ParamID="29307" ParamIndex="2" DriveObject="2" value="15" />
+      <parameter ParamID="29307" ParamIndex="3" DriveObject="2" value="18" />
+      <parameter ParamID="29307" ParamIndex="9" DriveObject="2" value="7" />
+      <parameter ParamID="29308" ParamIndex="0" DriveObject="2" value="10" />
+      <parameter ParamID="29308" ParamIndex="1" DriveObject="2" value="22" />
+      <parameter ParamID="29308" ParamIndex="2" DriveObject="2" value="16" />
+      <parameter ParamID="29308" ParamIndex="3" DriveObject="2" value="19" />
+      <parameter ParamID="29308" ParamIndex="9" DriveObject="2" value="10" />
+      <parameter ParamID="29330" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29331" ParamIndex="-1" DriveObject="2" value="2" />
+      <parameter ParamID="29332" ParamIndex="-1" DriveObject="2" value="3" />
+      <parameter ParamID="29333" ParamIndex="-1" DriveObject="2" value="5" />
+      <parameter ParamID="29334" ParamIndex="-1" DriveObject="2" value="6" />
+      <parameter ParamID="29335" ParamIndex="-1" DriveObject="2" value="8" />
+      <parameter ParamID="29340" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29341" ParamIndex="-1" DriveObject="2" value="2" />
+      <parameter ParamID="29350" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="29351" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="29360" ParamIndex="-1" DriveObject="2" value="1" />
+      <parameter ParamID="31581" ParamIndex="-1" DriveObject="2" value="0" />
+      <parameter ParamID="31585" ParamIndex="-1" DriveObject="2" value="1.0000" />
+      <parameter ParamID="31586" ParamIndex="-1" DriveObject="2" value="0.0300" />
+      <parameter ParamID="290" ParamIndex="-1" DriveObject="2" value="0" />
+    </Parameters>
+    <ValueInMasks>
+      <Property name="comboBoxCurveType" value="0" />
+      <Property name="MechanicalStructure" value="Ballscrew" DataType="int32" />
+      <Property name="Pitch" value="" DataType="int32" />
+      <Property name="Ratio" value="" DataType="int32" />
+    </ValueInMasks>
+    <DefaultDIConnection>
+      <DI1 value="" />
+      <DI2 value="" />
+      <DI3 value="" />
+      <DI4 value="" />
+      <DI5 value="" />
+      <DI6 value="" />
+      <DI7 value="" />
+      <DI8 value="" />
+    </DefaultDIConnection>
+    <DefaultDOConnection>
+      <DO1 value="" />
+      <DO2 value="" />
+      <DO3 value="" />
+      <DO4 value="" />
+      <DO5 value="" />
+      <DO6 value="" />
+      <DO7 value="" />
+      <DO8 value="" />
+    </DefaultDOConnection>
+    <TraceConfigurations>
+      <TraceSignals>
+        <Signal No="1" SignalIndex="0" Active="true" ParamID="37" DriveObject="2" ParamIndex="0" ColorRGB="255,0,0" IsAnalog="true" IsBitField="false" BitPos="-1" />
+        <Signal No="2" SignalIndex="0" Active="false" ParamID="482" DriveObject="2" ParamIndex="0" ColorRGB="0,255,0" IsAnalog="true" IsBitField="false" BitPos="-1" />
+        <Signal No="3" SignalIndex="0" Active="false" ParamID="482" DriveObject="2" ParamIndex="1" ColorRGB="0,0,255" IsAnalog="true" IsBitField="false" BitPos="-1" />
+        <Signal No="1" SignalIndex="0" Active="false" ParamID="722" DriveObject="1" ParamIndex="-1" ColorRGB="0,255,255" IsAnalog="false" IsBitField="true" BitPos="0" />
+        <Signal No="2" SignalIndex="0" Active="false" ParamID="722" DriveObject="1" ParamIndex="-1" ColorRGB="255,0,255" IsAnalog="false" IsBitField="true" BitPos="1" />
+        <Signal No="3" SignalIndex="0" Active="false" ParamID="722" DriveObject="1" ParamIndex="-1" ColorRGB="255,255,0" IsAnalog="false" IsBitField="true" BitPos="2" />
+      </TraceSignals>
+      <TraceRecording IsMeasurement="False" IsEndlessRecording="False" Factor="1" BasicTraceCycle="0.25" RecordingDuration="1000" />
+      <TriggerCondition>
+        <SelectedTriggerTypeIndex value="0" />
+        <TriggerType value="1" />
+        <TriggerSignal ParamID="20" DriveObject="1" ParamIndex="-1" IsBitField="False" BitPos="-1" />
+        <ThresholdValue value="0" />
+        <ThresholdUpperValue value="0" />
+        <ThresholdLowerValue value="0" />
+        <PretriggerTime value="0" />
+      </TriggerCondition>
+    </TraceConfigurations>
+    <ElectronicGear>
+      <SetMethod value="0" />
+      <StructureType value="0" />
+      <InputParamType value="0" />
+      <LuUnitOrNumber value="0" />
+      <PitchValue value="1" />
+      <RatioValueN value="1" />
+      <RatioValueM value="1" />
+      <LuUnitValue value="1" />
+      <NumUnitPerRatation value="1" />
+    </ElectronicGear>
+  </Project>
+</ProjectSettingFile>

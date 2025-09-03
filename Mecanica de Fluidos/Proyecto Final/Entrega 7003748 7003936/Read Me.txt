@@ -1,0 +1,3 @@
+El codigo interfaz funciona sin necesidad de instalar nada adicional, y el código de los cálculos no incluye interfaz, 
+los resultados se muestran en consola, en la interfaz se puede abrir el informe generado por PipeFlow.
+Andres Felipe Bernal Urrea 7003748, Filocaris Triana Pinzon 7003936

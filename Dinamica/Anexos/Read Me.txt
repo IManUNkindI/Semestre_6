@@ -1,0 +1,2 @@
+Las piezas están en version solid works 2022, quizá el ensamble no funcione, por eso se adjuntan algunas imágenes de como queda 
+el ensamble, sin embargo en la carpeta piezas están los archivos .step que pueden abrirse en cualquier version
